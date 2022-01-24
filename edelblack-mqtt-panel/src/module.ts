@@ -13,13 +13,11 @@ export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOption
     .addTextInput({
       path: 'listenTopic',
       name: 'Listen topic',
-      description: 'Topic to listen to',
       defaultValue: 'edelblack/mqtt/panel/listen',
     })
     .addTextInput({
       path: 'publishTopic',
       name: 'Publish topic',
-      description: 'Topic where the data will be published',
       defaultValue: 'edelblack/mqtt/panel/publish',
     })
     .addBooleanSwitch({
