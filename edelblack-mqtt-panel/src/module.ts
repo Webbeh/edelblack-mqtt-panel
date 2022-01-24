@@ -9,7 +9,7 @@ export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOption
       name: 'Server',
       description: 'WebSocket endpoint for the MQTT server',
       defaultValue: 'wss://localhost:9001/wss',
-    })
+    }) 
     .addTextInput({
       path: 'listenTopic',
       name: 'Listen topic',
