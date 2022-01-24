@@ -1301,7 +1301,7 @@
   resolved "https://registry.yarnpkg.com/@grafana/tsconfig/-/tsconfig-1.0.0-rc1.tgz#d07ea16755a50cae21000113f30546b61647a200"
   integrity sha512-nucKPGyzlSKYSiJk5RA8GzMdVWhdYNdF+Hh65AXxjD9PlY69JKr5wANj8bVdQboag6dgg0BFKqgKPyY+YtV4Iw==
 
-"@grafana/ui@8.3.4", "@grafana/ui@latest":
+"@grafana/ui@8.3.4", "@grafana/ui@^8.3.4":
   version "8.3.4"
   resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-8.3.4.tgz#d7b62e5fbaf14d71479aff400d82f61afcda386a"
   integrity sha512-JNy817Rzeo/tXXCwNsbz26TpyFh8irWdBXJJ0VF0M9fZotRyWymwZpzCge9nAPBzN5rysLUvo+lNfSDvxH2R0g==
