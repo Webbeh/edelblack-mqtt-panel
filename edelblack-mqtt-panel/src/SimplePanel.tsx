@@ -3,7 +3,7 @@ import { PanelProps } from '@grafana/data';
 import { SimpleOptions } from 'types';
 import { css, cx } from 'emotion';
 import { stylesFactory, useTheme } from '@grafana/ui';
-import { PlotConfigBuilder } from '@grafana/ui/components/uPlot/types';
+//import { PlotConfigBuilder } from '@grafana/ui/components/uPlot/types';
 
 interface Props extends PanelProps<SimpleOptions> {}
 
