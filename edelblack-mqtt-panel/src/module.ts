@@ -33,10 +33,12 @@ export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOption
       name: 'QOS',
       description: 'QOS for the sent data',
       defaultValue: 0,
-      min: 0,
-      max: 2,
-      step: 1,
-      integer: true
+      settings: {
+        min: 0,
+        max: 2,
+        step: 1,
+        integer: true
+      }
     })
     .addBooleanSwitch({
       path: 'waitBeforePublish',
