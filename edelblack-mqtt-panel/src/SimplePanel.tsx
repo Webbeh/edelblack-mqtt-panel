@@ -3,6 +3,7 @@ import { PanelProps } from '@grafana/data';
 import { SimpleOptions } from 'types';
 import { css, cx } from 'emotion';
 import { stylesFactory, useTheme } from '@grafana/ui';
+import { PlotConfigBuilder } from '@grafana/ui/components/uPlot/types';
 
 interface Props extends PanelProps<SimpleOptions> {}
 
@@ -33,16 +34,16 @@ export const SimplePanel: React.FC<Props> = ({ options, data, width, height }) =
       </svg>
 
       <div className={styles.textBox}>
-        {options.showSeriesCount && (
+        {options.canPublish && (
           <div
             className={css`
-              font-size: ${theme.typography.size[options.seriesCountSize]};
+              font-size: 12;
             `}
           >
             Number of series: {data.series.length}
           </div>
         )}
-        <div>Text option value: {options.text}</div>
+        <div>MQTT Server: {options.mqttServ}</div>
       </div>
     </div>
   );
