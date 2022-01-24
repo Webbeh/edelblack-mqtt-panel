@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
   "name": "edelblack-mqtt-panel",
-  "id": "edel-black-edelblack-mqtt-panel",
+  "id": "edelblack-mqtt-panel",
   "info": {
     "description": "MQTT Control Panel for Grafana",
     "author": {

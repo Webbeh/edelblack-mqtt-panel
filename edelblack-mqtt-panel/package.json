@@ -1,5 +1,5 @@
 {
-  "name": "edel-black-edelblack-mqtt-panel",
+  "name": "edelblack-mqtt-panel",
   "version": "1.0.0",
   "description": "MQTT Control Panel for Grafana",
   "scripts": {
