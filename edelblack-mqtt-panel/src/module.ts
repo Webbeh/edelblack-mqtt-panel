@@ -14,13 +14,13 @@ export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOption
       path: 'listenTopic',
       name: 'Listen topic',
       description: 'Topic to listen to',
-      defaultValue: 'edelblack/mqtt/panel/listen'
+      defaultValue: 'edelblack/mqtt/panel/listen',
     })
     .addTextInput({
       path: 'publishTopic',
       name: 'Publish topic',
       description: 'Topic where the data will be published',
-      defaultValue: 'edelblack/mqtt/panel/publish'
+      defaultValue: 'edelblack/mqtt/panel/publish',
     })
     .addBooleanSwitch({
       path: 'publishRetain',
@@ -36,7 +36,7 @@ export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOption
       min: 0,
       max: 2,
       step: 1,
-      integer: true
+      integer: true,
     })
     .addBooleanSwitch({
       path: 'waitBeforePublish',
